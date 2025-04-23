@@ -1,0 +1,8 @@
+<svg height="1em" style="flex:none;line-height:1" viewBox="0 0 30 30" width="1em" xmlns="http://www.w3.org/2000/svg">
+    <title>Versa</title>
+    <rect width="30" height="30" fill="#E7F8FF" rx="6"/>
+    <g transform="translate(4, 4)">
+        <path d="M 10 0 L 0 10 L 12 22 L 22 12 Z" fill="#FE3366" stroke="white" stroke-width="2" />
+	    <path d="M 16 2 L 7 11 L 15 19 L 24 10 Z" fill="#FE3366" stroke="white" stroke-width="2" />
+    </g>
+</svg>

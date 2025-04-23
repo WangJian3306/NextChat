@@ -13,7 +13,8 @@ import BotIconGemma from "../icons/llm-icons/gemma.svg";
 import BotIconClaude from "../icons/llm-icons/claude.svg";
 import BotIconMeta from "../icons/llm-icons/meta.svg";
 import BotIconMistral from "../icons/llm-icons/mistral.svg";
-import BotIconDeepseek from "../icons/llm-icons/deepseek.svg";
+// import BotIconDeepseek from "../icons/llm-icons/deepseek.svg";
+import BotIconDeepseek from "../icons/llm-icons/versa.svg";
 import BotIconMoonshot from "../icons/llm-icons/moonshot.svg";
 import BotIconQwen from "../icons/llm-icons/qwen.svg";
 import BotIconWenxin from "../icons/llm-icons/wenxin.svg";
@@ -68,7 +69,10 @@ export function Avatar(props: { model?: ModelType; avatar?: string }) {
       LlmIcon = BotIconClaude;
     } else if (modelName.includes("llama")) {
       LlmIcon = BotIconMeta;
-    } else if (modelName.startsWith("mixtral") || modelName.startsWith("codestral")) {
+    } else if (
+      modelName.startsWith("mixtral") ||
+      modelName.startsWith("codestral")
+    ) {
       LlmIcon = BotIconMistral;
     } else if (modelName.includes("deepseek")) {
       LlmIcon = BotIconDeepseek;
