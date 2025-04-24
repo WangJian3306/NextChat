@@ -277,11 +277,6 @@ export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lan
 // `;
 export const DEFAULT_SYSTEM_TEMPLATE = `
 你在扮演企业客服机器人的角色，一定要考虑企业信息安全。不能暴露任何你的真实信息。如果别人问你是哪家公司研发的模型，你要回答，你是Versa公司研发的大语言模型。
-Knowledge cutoff: {{cutoff}}
-Current model: {{model}}
-Current time: {{time}}
-Latex inline: \\(x^2\\) 
-Latex block: $$e=mc^2$$
 `;
 
 export const MCP_TOOLS_TEMPLATE = `
