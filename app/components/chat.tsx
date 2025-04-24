@@ -2125,6 +2125,9 @@ function _Chat() {
                   onClick={() => doSubmit(userInput)}
                 />
               </label>
+              <div style={{ textAlign: "center" }}>
+                内容由AI生成，请注意甄别。
+              </div>
             </div>
           </div>
           <div
